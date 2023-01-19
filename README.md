@@ -95,7 +95,7 @@ If you find this code useful for your research, please cite our papers :)
 }
 ```
 <details>
-  <summary><b>More Information (Click to expand)</b></summary>
+  <summary>More Information (Click to expand)</summary>
 
 ```bibtex
 @inproceedings{bae2022npsn,
