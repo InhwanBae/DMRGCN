@@ -8,17 +8,15 @@ This repository contains the code for disentangling social interaction and allev
 <br>Accepted to 
 <a href="https://ojs.aaai.org/index.php/AAAI/article/view/16174">AAAI 2021</a>
 
-<div align='center' style="display:flex">
-&emsp;&emsp;
-  <div align='center'>
-    <img src="img/stgcnn-probability-animated.webp" width=90%'>
-    <br>Previous SOTA Model (CVPR'20)
-  </div>
-  <div align='center'>
-    <img src="img/dmrgcn-probability-animated.webp" width=90%'>
-    <br><b>DMRGCN (Ours)</b>
-  </div>
-&emsp;&emsp;
+<div align='center'>
+  <img src="img/stgcnn-probability-animated.webp" width=40%'>
+  &emsp;&emsp;
+  <img src="img/dmrgcn-probability-animated.webp" width=40%'>
+</div>
+<div align='center'>
+  <span style='display:inline-block; width:40%; text-align:center'>Left: Previous SOTA Model (CVPR'20)</span>
+  &emsp;&emsp;
+  <span style='display:inline-block; width:40%; text-align:center'>Right: <b>DMRGCN (Ours)</b></span>
 </div>
 
 
