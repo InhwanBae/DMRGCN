@@ -9,9 +9,9 @@ This repository contains the code for disentangling social interaction and allev
 <a href="https://ojs.aaai.org/index.php/AAAI/article/view/16174">AAAI 2021</a>
 
 <div align='center'>
-  <img src="img/stgcnn-probability-animated.webp" width=40%'>
+  <img src="img/stgcnn-probability-animated.webp" width=40%>
   &emsp;&emsp;
-  <img src="img/dmrgcn-probability-animated.webp" width=40%'>
+  <img src="img/dmrgcn-probability-animated.webp" width=40%>
 </div>
 <div align='center'>
   <span style='display:inline-block; width:40%; text-align:center'>Left: Previous SOTA Model (CVPR'20)</span>
