@@ -20,7 +20,7 @@ This repository contains the code for disentangling social interaction and allev
 </div>
 
 
-## DMRGCN Model
+## 🧶 DMRGCN Model 🧶
 * Disentangled Multi-scale Aggregation for better social interaction representation on a weighted graph.
 * Global Temporal Aggregation for alleviating accumulated errors when pedestrians change their directions.
 * DropEdge technique to avoid the over-fitting issue by randomly removing relation edges.
@@ -78,13 +78,14 @@ python test.py --tag social-dmrgcn-zara2-experiment_tp4_de80
 ```
 
 
-## Citation
-If you find this code useful for your research, please cite our papers :)
+## 📖 Citation
+If you find this code useful for your research, please cite our trajectory prediction papers :)
 
 [**`DMRGCN (AAAI'21)`**](https://github.com/InhwanBae/DMRGCN) **|** 
 [**`NPSN (CVPR'22)`**](https://github.com/InhwanBae/NPSN) **|** 
 [**`GP-Graph (ECCV'22)`**](https://github.com/InhwanBae/GPGraph) **|** 
-[**`Graph-TERN (AAAI'23)`**](https://github.com/InhwanBae/GraphTERN)
+[**`Graph-TERN (AAAI'23)`**](https://github.com/InhwanBae/GraphTERN) **|** 
+[**`EigenTrajectory (ICCV'23)`**](https://github.com/InhwanBae/EigenTrajectory)
 
 ```bibtex
 @article{bae2021dmrgcn,
@@ -116,6 +117,13 @@ If you find this code useful for your research, please cite our papers :)
   title={A Set of Control Points Conditioned Pedestrian Trajectory Prediction},
   author={Bae, Inhwan and Jeon, Hae-Gon},
   journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2023}
+}
+
+@inproceedings{bae2023eigentrajectory,
+  title={EigenTrajectory: Low-Rank Descriptors for Multi-Modal Trajectory Forecasting},
+  author={Bae, Inhwan and Oh, Jean and Jeon, Hae-Gon},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   year={2023}
 }
 ```
