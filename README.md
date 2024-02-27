@@ -15,6 +15,7 @@
 </p>
 
 <div align='center'>
+  <br>
   <img src="img/stgcnn-probability-animated.webp" width=40%>
   &emsp;&emsp;
   <img src="img/dmrgcn-probability-animated.webp" width=40%>
