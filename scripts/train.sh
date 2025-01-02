@@ -38,7 +38,7 @@ trap sighdl SIGINT SIGTERM
 for (( i=0; i<${#name_array[@]}; i++ ))
 do
   printf "Training ${name_array[$i]}"
-  CUDA_VISIBLE_DEVICES=${device_id_array[$i]} python3 train_test.py \
+  CUDA_VISIBLE_DEVICES=${device_id_array[$i]} python3 train.py \
   --dataset "${name_array[$i]}" --tag "${prefix}""${name_array[$i]}""${suffix}" \
   --n_stgcn $n_stgcn --n_tpcnn $n_tpcnn \
   --batch_size $num_batches --num_epochs $num_epochs \
