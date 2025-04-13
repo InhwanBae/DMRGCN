@@ -26,11 +26,13 @@
   <span style='display:inline-block; width:40%; text-align:center'>Right: <b>DMRGCN (Ours)</b></span>
 </div>
 
-<br>This repository contains the code for disentangling social interaction and alleviating accumulated errors for trajectory prediction.
+<!--<br>This repository contains the code for disentangling social interaction and alleviating accumulated errors for trajectory prediction.-->
+<br>**Summary**: **Disentangling social interaction** and **alleviating accumulated errors** for trajectory prediction.
 
 <br>
 
 ## 🧶 DMRGCN Model 🧶
+* Addressing over-smoothing and biased weighting problems in high-order social relations.
 * Disentangled Multi-scale Aggregation for better social interaction representation on a weighted graph.
 * Global Temporal Aggregation for alleviating accumulated errors when pedestrians change their directions.
 * DropEdge technique to avoid the over-fitting issue by randomly removing relation edges.
@@ -43,7 +45,7 @@
 
 **Dataset**
 <br>Preprocessed [ETH](https://data.vision.ee.ethz.ch/cvl/aem/ewap_dataset_full.tgz) and [UCY](https://graphics.cs.ucy.ac.cy/research/downloads/crowd-data) datasets are included in this repository, under `./dataset/`. 
-The train/validation/test splits are the same as those fond in [Social-GAN](https://github.com/agrimgupta92/sgan).
+The train/validation/test splits are the same as those found in [Social-GAN](https://github.com/agrimgupta92/sgan).
 
 ### Train DMRGCN
 To train our DMRGCN on the ETH and UCY datasets at once, we provide a bash script `train.sh` for a simplified execution.
@@ -91,6 +93,7 @@ python test.py --tag social-dmrgcn-zara2-experiment_tp4_de80
 ## 📖 Citation
 If you find this code useful for your research, please cite our trajectory prediction papers :)
 
+[**`🏢🚶‍♂️ CrowdES (CVPR'25) 🏃‍♀️🏠`**](https://github.com/InhwanBae/Crowd-Behavior-Generation) **|**
 [**`💬 LMTrajectory (CVPR'24) 🗨️`**](https://github.com/InhwanBae/LMTrajectory) **|**
 [**`1️⃣ SingularTrajectory (CVPR'24) 1️⃣`**](https://github.com/InhwanBae/SingularTrajectory) **|**
 [**`🌌 EigenTrajectory (ICCV'23) 🌌`**](https://github.com/InhwanBae/EigenTrajectory) **|** 
@@ -107,10 +110,17 @@ If you find this code useful for your research, please cite our trajectory predi
   year={2021}
 }
 ```
-<details>
+<details open>
   <summary>More Information (Click to expand)</summary>
 
 ```bibtex
+@inproceedings{bae2025crowdes,
+  title={Continuous Locomotive Crowd Behavior Generation},
+  author={Bae, Inhwan and Lee, Junoh and Jeon, Hae-Gon},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2025}
+}
+
 @inproceedings{bae2024lmtrajectory,
   title={Can Language Beat Numerical Regression? Language-Based Multimodal Trajectory Prediction},
   author={Bae, Inhwan and Lee, Junoh and Jeon, Hae-Gon},
